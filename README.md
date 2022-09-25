@@ -1,1 +1,1 @@
-# web_servises_2022
+# Репозиторий к курсу Python Backend, ИТМО 2022
