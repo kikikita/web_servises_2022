@@ -1,9 +1,20 @@
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+database = {
+    'users': []
+}
 
-from app.settings import settings
+# from sqlalchemy import create_engine
+# from sqlalchemy.orm import sessionmaker
 
-engine = create_engine(
-    settings.database_url,
-    connect_args={'check_same_thread': False}
-)
+# from app.settings import settings
+
+# engine = create_engine(
+#     settings.database_url,
+#     connect_args={'check_same_thread': False}
+# )
+
+
+# Session = sessionmaker(
+#     engine,
+#     autocommit=False,
+#     autoflush=False
+# )
